@@ -16,5 +16,5 @@ context {
 
 mount_options {
   fs_type     = "nfs"
-  mount_flags = ["vers=3"]               # или: ["vers=3","nolock"] если не хочешь statd
+  mount_flags = ["vers=3", "nolock"]               # или: ["vers=3","nolock"] если не хочешь statd
 }
