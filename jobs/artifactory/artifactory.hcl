@@ -40,7 +40,7 @@ job "artifactory" {
       }
 
       config {
-        image = "jfrog/artifactory-oss:latest"
+        image = "releases-docker.jfrog.io/jfrog/artifactory-oss:latest"
 
         ports = [
           "ui",
