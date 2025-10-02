@@ -1,6 +1,6 @@
 job "postgres-server" {
   datacenters = [
-    "home"
+    "вс1"
   ]
   type = "service"
 
