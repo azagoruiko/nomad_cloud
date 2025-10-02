@@ -44,7 +44,6 @@ job "postgres-server" {
         POSTGRES_PASSWORD = "zasada"
         POSTGRES_DB       = "artifactory"
         PGDATA            = "/var/lib/postgresql/data"
-        POSTGRES_PASSWORD = "zasada"
       }
 
       config {
